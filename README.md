@@ -16,11 +16,11 @@ No other packages are required.
 Here are examples of all current features:
 ```
 >>> import trnames
->>> trnames.get_full_name()
+>>> trnames.get_full_name() # gender is set randomly if not given
 'Ahmet Harman'
 >>> trnames.get_full_name(gender='male')
 'Mustafa Berber'
->>> trnames.get_first_name()
+>>> trnames.get_first_name() # gender is set randomly if not given
 'Hasan'
 >>> trnames.get_first_name(gender='female')
 'Behiye'
