@@ -1,6 +1,6 @@
 # trnames
 
-Random name generator for Turkish names with realistic probabilities.
+Random Turkish name generator with realistic probabilities.
 
 Based on Trey Hunner's [names](https://github.com/treyhunner/names) package.
 
@@ -34,5 +34,4 @@ The probabilities of first and last names are parsed from 49,611,709 individuals
 ## License
 
 This project is released under an _MIT License_.
-
 
