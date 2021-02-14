@@ -17,7 +17,7 @@ Here are examples of all current features:
 ```
 >>> import trnames
 >>> trnames.get_full_name() # gender is set randomly if not given
-'Ahmet Harman'
+'Emine Ozdemir'
 >>> trnames.get_full_name(gender='male')
 'Mustafa Berber'
 >>> trnames.get_first_name() # gender is set randomly if not given
