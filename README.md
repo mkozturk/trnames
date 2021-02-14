@@ -31,6 +31,8 @@ Here are examples of all current features:
 ## Data
 The probabilities of first and last names are parsed from 49,611,709 individuals, 24,534,483 men and 25,077,226 women, born between 1888 and 1991. 
 
+Names that are seen in less than 100 individuals are not used.  
+
 ## License
 
 This project is released under an _MIT License_.
