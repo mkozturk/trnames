@@ -16,11 +16,11 @@ No other packages are required.
 Here are examples of all current features:
 ```
 >>> import trnames
->>> trnames.get_full_name()
-'Ahmet Harman'
+>>> trnames.get_full_name() # gender is set randomly if not given
+'Emine Ozdemir'
 >>> trnames.get_full_name(gender='male')
 'Mustafa Berber'
->>> trnames.get_first_name()
+>>> trnames.get_first_name() # gender is set randomly if not given
 'Hasan'
 >>> trnames.get_first_name(gender='female')
 'Behiye'
@@ -30,6 +30,8 @@ Here are examples of all current features:
 
 ## Data
 The probabilities of first and last names are parsed from 49,611,709 individuals, 24,534,483 men and 25,077,226 women, born between 1888 and 1991. 
+
+Names that are seen in less than 100 individuals are not used.  
 
 ## License
 
